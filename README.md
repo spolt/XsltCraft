@@ -16,12 +16,15 @@ It provides a developer-friendly interface with a powerful code editor, template
 
 ## Features
 
-* XSLT editing with **Monaco Editor**
-* **Live preview** of transformed HTML
-* **XML file upload**
+* XSLT editing with **Monaco Editor** (XSLT IntelliSense)
 * **Template library** (Invoice, Despatch)
+* Load XSLT from backend
+* Live XSLT validation (debounced)
+* Live preview transform
+* **XML file upload with validation**
 * **Template editing and saving**
-* **Image asset support** (Logo, Signature)
+* **Logo/Signature Base64 injection** (Logo, Signature)
+* Preview → Editor text navigation
 * Dockable and resizable layout
 * Dark theme developer interface
 ---
@@ -70,7 +73,7 @@ Template Library | XSLT Editor | HTML Preview
 
 ## How It Works
 
-1. Upload an XML file or select a template
+1. Upload an XML file or select a template (You need to add invoice and despatch xslt files to the templates folder.)
 2. Edit the XSLT stylesheet
 3. The application sends the XML + XSLT to the backend API
 4. The backend performs the transformation
