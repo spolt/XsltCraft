@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="XsltCraft.Application/XsltCraft.Application.csproj" />
+    <Project Path="XsltCraft.Domain/XsltCraft.Domain.csproj" />
+    <Project Path="XsltCraft.Infrastructure/XsltCraft.Infrastructure.csproj" />
+    <Project Path="XsltCraft/XsltCraft.Api.csproj" />
+  </Folder>
+</Solution>

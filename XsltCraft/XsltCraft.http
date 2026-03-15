@@ -1,0 +1,6 @@
+@XsltCraft_HostAddress = http://localhost:5294
+
+GET {{XsltCraft_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
